@@ -1,0 +1,52 @@
+/* Global */
+*{
+    --vinho:#a30404;
+    --amarelo:#fed40e;
+    --gray: #e5e5e5;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 93.75%;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.overflow-hidden{
+    overflow:hidden;
+
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background: var(--vinho) url(../assets/img/bg_icons.svg);
+}
+.container{
+    width: min(90vw, 800vw);
+    padding-top: 4rem;
+    margin: auto;
+}
+.img-fluid{
+    width: max(14vw, 100vw);
+    object-fit: cover;
+}
+.flex-center-full{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    flex-direction: row;
+}
+.texr-center{
+    text-align: center;
+}
+.titulo-banner h1{
+    font-family: "Rum Raisin", sans-serif;
+    font-weight: normal;
+    font-size: 5rem;
+    color: var(--amarelo);
+    margin-bottom:2rem;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.87);
+}
